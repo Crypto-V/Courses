@@ -10,7 +10,9 @@ def pull_the_city(val=None):
             if value == val:
                 for k, v in states.items():
                     if v == key:
-                        print(k)
+                        print(val + " is the capital of " + k)
+    else:
+        print("Unknown city")
 
 
 if __name__ == "__main__":

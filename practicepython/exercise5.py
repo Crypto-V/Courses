@@ -1,7 +1,7 @@
 import random
-
-
 # Creating the function that will generate a integer number.
+
+
 def number_generator(fr, to):
     # Fr represents the starting value and to is the end point of the random range.
     return random.randint(fr, to)
